@@ -1,5 +1,5 @@
 #chuong trinh chinh
-name: Run ap chuong trinh dinh ky
+name: Run ap chuong trinh dinh ky bk new
 
 on: 
   release:
@@ -10,7 +10,7 @@ on:
   #  branches: 
   #    - master
   schedule:
-    - cron: '10 0,7 * * *'
+    - cron: '25 5,23 * * *'
   watch:
     types: [started]
    
