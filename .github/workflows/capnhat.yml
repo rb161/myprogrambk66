@@ -1,5 +1,5 @@
 #update
-name: Cap nhat ma ngau nhien bkog
+name: Cap nhat ma ngau nhien bk new
 
 on: 
   release:
@@ -10,7 +10,7 @@ on:
   #  branches: 
   #    - master
   schedule:
-    - cron: '30 6,21 * * *'
+    - cron: '15 5,23 * * *'
   watch:
     types: [started]
    
@@ -64,7 +64,7 @@ jobs:
         git config --global user.email rabip161acc@gmail.com
         git config --global user.name rb161
         git add .
-        git commit -m "Cap nhat ma moi" -a
+        git commit -m "Cap nhat ma moi bk new" -a
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
